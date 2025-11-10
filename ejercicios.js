@@ -43,11 +43,11 @@ function operacionesBasicas(a, b) {
  * Ejercicio 1.3: Ãrea de un rectÃ¡ngulo (2 puntos)
  * @param {number} base - Base del rectÃ¡ngulo
  * @param {number} altura - Altura del rectÃ¡ngulo
- * @returns {number} - Ãrea del rectÃ¡ngulo
+  @returns {number}   Ãrea del rectÃ¡ngulo
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  return 0;
+  return base * altura;
 }
 
 /**
@@ -59,7 +59,7 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   // TODO: Implementa la conversiÃ³n
-  return 0;
+  return;
 }
 
 // ============================================
@@ -74,7 +74,7 @@ function celsiusAFahrenheit(celsius) {
 function parOImpar(numero) {
   // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
   // Pista: Un nÃºmero es par si numero % 2 === 0
-  return "";
+  return;
 }
 
 /**
@@ -84,7 +84,6 @@ function parOImpar(numero) {
  */
 function evaluarNota(nota) {
   // TODO: Implementa la lÃ³gica con if/else
-  return "";
 }
 
 /**
@@ -96,7 +95,7 @@ function evaluarNota(nota) {
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return 0;
+  return;
 }
 
 /**
@@ -106,8 +105,10 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
-  return "";
-}
+
+    return
+  }
+    
 
 // ============================================
 // SECCIÃ“N 3: FUNCIONES Y BUCLES (20 puntos)
@@ -122,8 +123,10 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  
+  return ;
 }
+
 
 /**
  * Ejercicio 3.2: Suma de nÃºmeros del 1 al n (4 puntos)
@@ -132,8 +135,10 @@ function factorial(n) {
  */
 function sumaHastaN(n) {
   // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+
+  return;
 }
+
 
 /**
  * Ejercicio 3.3: Tabla de multiplicar (5 puntos)
@@ -170,8 +175,10 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+
+  return;
 }
+
 
 /**
  * Ejercicio 4.2: Promedio de un array (5 puntos)
@@ -180,8 +187,10 @@ function sumaArray(numeros) {
  */
 function promedioArray(numeros) {
   // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+
+  return;
 }
+
 
 /**
  * Ejercicio 4.3: Encontrar el mÃ¡ximo (6 puntos)
@@ -191,7 +200,7 @@ function promedioArray(numeros) {
 function encontrarMaximo(numeros) {
   // TODO: Encuentra y retorna el nÃºmero mÃ¡s grande
   // Pista: Puedes usar Math.max(...numeros) o hacerlo con un bucle
-  return 0;
+return ;
 }
 
 /**
@@ -217,7 +226,7 @@ function invertirArray(arr) {
   // TODO: Invierte el orden de los elementos
   // Pista: Puedes usar arr.reverse() o hacerlo manualmente
   const invertido = [];
-  return invertido;
+  return ;
 }
 
 // ============================================
@@ -235,7 +244,9 @@ function invertirArray(arr) {
  */
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
-  const matriz = [];
+    const matriz = [];
+
+  // Recorremos las filas
   return matriz;
 }
 
@@ -248,7 +259,7 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  return;
 }
 
 /**
@@ -260,7 +271,7 @@ function sumaMatriz(matriz) {
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  return [];
+  return matriz;
 }
 
 /**
@@ -284,8 +295,6 @@ function obtenerColumna(matriz, indiceColumna) {
  * Ejemplo: transponer([[1, 2, 3], [4, 5, 6]]) debe retornar [[1, 4], [2, 5], [3, 6]]
  */
 function transponer(matriz) {
-  // TODO: Crea la matriz transpuesta
-  const transpuesta = [];
   return transpuesta;
 }
 
