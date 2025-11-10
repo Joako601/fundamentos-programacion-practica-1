@@ -101,7 +101,17 @@ function evaluarNota(nota) {
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return;
+  let mayor;
+
+  if (a >= b && a >= c) {
+    mayor = a;
+  } else if (b >= a && b >= c) {
+    mayor = b;
+  } else {
+    mayor = c;
+  }
+
+  return mayor;
 }
 
 /**
