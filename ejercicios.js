@@ -212,8 +212,12 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
+  let sumaTotal = 0;
 
-  return;
+  for (let i = 0; i < numeros.length; i++) {
+    sumaTotal += numeros[i];
+  }
+  return sumaTotal;
 }
 
 
