@@ -295,8 +295,13 @@ function invertirArray(arr) {
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
     const matriz = [];
-
-  // Recorremos las filas
+  for (let i = 0; i < filas; i++) {
+    let fila = [];
+    for (let j = 0; j < columnas; j++) {
+      fila.push(0); 
+    }
+    matriz.push(fila);
+  }
   return matriz;
 }
 
