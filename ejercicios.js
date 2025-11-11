@@ -332,7 +332,7 @@ function sumaMatriz(matriz) {
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  return matriz;
+  return matriz[indiceFila];
 }
 
 /**
